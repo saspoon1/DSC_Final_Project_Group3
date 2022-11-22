@@ -7,6 +7,6 @@ The blocks of code were run in an AWS Sagemaker ml.t3.medium instance, using a j
 
 In the first chunk, the MP3s were stored in an AWS S3 bucket. You can change it around to store it in a new location, but be sure to adjust the path in the second chunk as well. Also, be sure that permissions in that bucket are set to be public so the second code chunk can access it without error. Finally, make sure to use a unique name for the transcribed work if you are transcribing again (just put a new number in front of the same name). 
 
-In the analysis section, the python "levenshtein" package from textdistance was used. 
+In the analysis section, the "levenshtein" package from textdistance was used. 
 
 A more formal walkthrough of the code, reasoning and analysis can be found in the “blog” section.
