@@ -6,4 +6,4 @@ To recreate or adapt our process, connect to this GitHub repo first. In the Text
 
 Next, go into the TranscribedCopy code and change the line of code reading "insert_name = 'XXXX'" to the same S3 bucket name used in the TextToSpeechMP3 file. Be sure to use a unique name for the transcribed files if the code is run multiple times so that the the same files are not constantly being overwritten (an easy solution is to put a new number in front of the file name). The "levenshtein" Python library from the "textdistance" package was used to compute the score for each transcription file. 
 
-A more formal walkthrough of the code, reasoning and analysis is included in the “blog” section.
+A more formal walkthrough of the code, reasoning and analysis and a diagram of the architecture used is included in the “blog” section.
